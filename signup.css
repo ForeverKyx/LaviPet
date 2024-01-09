@@ -1,0 +1,37 @@
+ body {
+    font-family: 'Titan One', sans-serif;
+    background-color: #FF5733; /* Reddish-orange background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #FFC300; /* Lighter orange form background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FF5733; /* Match the background color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #DB4624; /* Darker orange on hover */
+}

@@ -1,0 +1,20 @@
+.headerContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+  font-family: titan one;
+  color: rgb(243, 122, 9);
+  text-shadow: 0 2px 5px rgba(255, 51, 51, 0.6);
+  font-size: 70px;
+  gap: 5px;
+  margin-top: 20px;
+           background-image: url(https://i.pinimg.com/originals/ef/5e/4b/ef5e4b4d024c66b42311e337ae8ab4cc.gif); 
+
+            background-repeat: repeat; 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent;
+}
+
+

@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LaviPet Flame Banner</title>
+  <link href="styles.css" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .headerContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 80px;
+      background-color: #333;
+      font-family: 'Titan One', cursive;
+      font-size: 36px;
+      color: #fff;
+    }
+
+    .headerContainer span {
+      margin: 0 10px;
+    }
+
+    #banner {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 48px;
+      font-weight: 900; /* Make the font even more thicker */
+      position: relative;
+      color: transparent;
+      background: linear-gradient(to bottom, #ff5757, #ffdb58, #ff5757);
+      -webkit-background-clip: text;
+      animation: flames 2s infinite alternate;
+    }
+
+    @keyframes flames {
+      from {
+        background-size: 100% 200%;
+        background-position: 0% 0%;
+      }
+      to {
+        background-size: 100% 200%;
+        background-position: 0% 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="headerContainer">
+    <span>L</span>
+    <span>A</span>
+    <span>V</span>
+    <span>I</span>
+    <span>P</span>
+    <span>E</span>
+    <span>T</span>
+  </div>
+</body>
+</html>
+
+
+ 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEST WEBSITE</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Titan One', cursive;
+      position: relative;
+    }
+
+    #flames {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('flames.png'); /* Replace with an actual flames image or use CSS animation for flames effect */
+      background-size: cover;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    #test-button {
+      background-color: #ff5757; /* Red background color */
+      color: #fff;
+      font-size: 24px;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+
+    #test-button:hover {
+      background-color: #d42b2b; /* Darker red on hover */
+    }
+  </style>
+</head>
+<body>
+  <div id="flames"></div>
+  <a id="test-button" href="https://lavipet1.w3spaces.com/pages/Home.html" target="_blank">TEST WEBSITE</a>
+</body>
+</html>
+
+
+
+
+
+The FIRST lava themed Blooket Project!
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moving Flame Background</title>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Titan One', cursive;
+      background: linear-gradient(to bottom, #ff5757, #ffdb58, #ff5757);
+      animation: flameBackground 5s infinite linear alternate;
+    }
+
+    @keyframes flameBackground {
+      from {
+        background-position: 0% 0%;
+      }
+      to {
+        background-position: 0% 100%;
+      }
+    }
+
+    h1 {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1></h1>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to LaviPet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Titan One', cursive;
+      background-color: #f0f0f0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      color: #0077cc; /* LaviPet blue color */
+    }
+
+    p {
+      max-width: 600px;
+      margin: 20px 0;
+    }
+
+    .devs {
+      font-weight: bold;
+      color: #ff5757; /* Red color for devs */
+    }
+  </style>
+</head>
+<body>
+  
+  <p>This website was made from scratch by the talented developers:</p>
+  <p class="devs">@Soundgod, @LaviPet, and @LavaVerse</p>
+  <p>Hope you enjoy! ;)</p>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaviPet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Titan One', cursive;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #4A1414; /* Lava-inspired background color */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        #discord-button-right,
+        #discord-button-left {
+            background-color: #7289DA; /* Discord brand color */
+            color: #fff;
+            font-size: 24px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            position: absolute;
+            bottom: 20px; /* Adjust the distance from the bottom */
+        }
+
+        #discord-button-right {
+            right: 20px; /* Adjust the distance from the right */
+        }
+
+        #discord-button-left {
+            left: 20px; /* Adjust the distance from the left */
+        }
+
+        #discord-button-right:hover,
+        #discord-button-left:hover {
+            background-color: #5865F2; /* Darker brand color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    
+    <a id="discord-button-left" href="https://discord.gg/mdnReScGqh" target="_blank">Join Our Discord</a>
+
+</body>
+</html>
